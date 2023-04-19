@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Example</title>
+    <script>
+      function showAlert(buttonName) {
+        alert(buttonName);
+      }
+    </script>
+    <style>
+      .button-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .button {
+        margin: 10px;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-line">
+      <button class="button" onclick="showAlert('clue 1')">clue 1</button>
+    </div>
+    <div class="button-line">
+      <button class="button" onclick="showAlert('clue 2')">clue 2</button>
+    </div>
+    <div class="button-line">
+      <button class="button" onclick="showAlert('clue 3')">clue 3</button>
+    </div>
+    <div class="button-line">
+      <button class="button" onclick="showAlert('clue 4')">clue 4</button>
+    </div>
+    <div class="button-line">
+      <button class="button" onclick="showAlert('clue 5')">clue 5</button>
+    </div>
+  </body>
+</html>

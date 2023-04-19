@@ -1,0 +1,65 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://thumbs.dreamstime.com/z/seamless-pattern-fast-food-items-black-background-hand-drawn-doodle-set-vector-illustration-junk-collection-cartoon-snack-200598354.jpg");
+    background-repeat: no-repeat;
+    background-size:cover
+
+}
+
+table {
+	border-collapse: collapse;
+	margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+th, td {
+	border: 1px solid purple;
+	padding: 10px;
+	text-align: center;
+    color:white;
+    background-color:black;
+}
+
+th {
+	background-color: black;
+}
+
+input[type="number"] {
+	width: 50px;
+}
+
+button {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+#p1,#p2,#p3{
+    color:black;
+    background-color:white;
+    font-size: medium;
+    font-family:'arial';
+}
+#p4{
+    text-align: center;
+    font-style: oblique;
+    font-size:larger;
+    color:yellow;
+    background-color:purple;
+}
+#h{
+    text-align: center;
+    font-family: 'Open Sans' ;
+    color:black;
+    background-color:white;
+    border: solid black;
+}
